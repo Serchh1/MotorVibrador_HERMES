@@ -1,11 +1,11 @@
 #pragma once
 
-#define SENS_BAJA 80
-#define SENS_MEDIO 130
+#define SENS_BAJA 50
+#define SENS_MEDIA 110
 #define SENS_ALTA 200
 #define SENS_MAX 255
-#define VALOR_MAXIMO 255
-#define VALOR_MINIMO 0
+#define ON 255
+#define OFF 0
 
 class motorVibrador 
 {

@@ -9,5 +9,5 @@ motorVibrador::motorVibrador(int pinMotor)
 
 void motorVibrador::controlmotor(int pwm)
 {
-    analogWrite(m_pinMotor, constrain(pwm, VALOR_MINIMO, VALOR_MAXIMO));
+    analogWrite(m_pinMotor, constrain(pwm, OFF, ON));
 }
