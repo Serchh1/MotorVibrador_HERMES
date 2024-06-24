@@ -1,7 +1,7 @@
 #pragma once
 
 #define SENS_BAJA 50
-#define SENS_MEDIA 110
+#define SENS_MEDIA 86
 #define SENS_ALTA 200
 #define SENS_MAX 255
 #define ON 255
